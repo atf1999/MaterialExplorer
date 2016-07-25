@@ -1,9 +1,10 @@
 {
-  "name": "materialexplorer",
-  "version": "1.0.0",
-  "description": "Electron based material design file explorer",
+  "name": "MaterialExplorer",
+  "version": "v0.1.0",
+  "description": "Flat, modern file explorer.",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,14 +12,11 @@
     "url": "https://www.github.com/atf1999/MaterialExplorer"
   },
   "keywords": [
-    "Explorer",
-    "File",
-    "Explorer",
-    "File",
-    "File",
-    "Manager"
+    "file",
+    "explorer",
+    "manager"
   ],
-  "author": "Tom Orth (atf1999)",
+  "author": "atf1999, ErikBoesen",
   "license": "ISC",
   "devDependencies": {
     "fs-extra": "^0.30.0",
